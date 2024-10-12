@@ -1,7 +1,14 @@
-test: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset\test
-train: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset\train
-val: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset\train
- 
-names:
-  0: Mobile phone
-  1: People using a mobile phone
+path: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 2
+names: ['People using phone', 'phone']
+
+roboflow:
+  workspace: ficic
+  project: mobile-phone-detection-5o6t2
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/ficic/mobile-phone-detection-5o6t2/1
