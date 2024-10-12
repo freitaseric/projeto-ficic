@@ -1,0 +1,7 @@
+test: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset\test
+train: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset\train
+val: C:\Users\thiag\Documents\EEML\II FICIC\Smart School\Rede Neural\dataset\train
+ 
+names:
+  0: Mobile phone
+  1: People using a mobile phone
